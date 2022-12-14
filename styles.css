@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fascinate&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #e5e5e5;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  background-color: white;
+  width: 1440px;
+  margin: 0 auto;
+}
+header {
+  width: 1440px;
+  height: 118px;
+  background: #9ecefa;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+h1 {
+  color: #87119a;
+  font-family: "Fascinate", cursive;
+  font-weight: 900;
+  font-size: 52px;
+  line-height: 69px;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+nav ul {
+  display: flex;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+nav ul li {
+  padding: 25px;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: gray;
+  font-weight: 400;
+  font-size: 18px;
+}
+li a:hover {
+  text-decoration: underline;
+  color: #87119a;
+}
+section {
+  padding-top: 40px;
+  margin: 30px;
+}
+h2 {
+  margin-left: 50px;
+  padding-left: 15px;
+  height: 35px;
+  color: #87119a;
+  text-transform: uppercase;
+  border-left: 6px solid #87119a;
+}
+p {
+  margin: 20px 50px 0 50px;
+}
+
+img {
+  border-radius: 10px;
+  width: 410px;
+  height: 251px;
+}
+.img {
+  margin: 40px;
+}
+
+.images2-1 {
+  margin-left: 250px;
+}
+.images2-1 img {
+  margin: 10px;
+}
+.images2-2 {
+  margin-left: 450px;
+}
+.images3 img {
+  margin: 20px;
+  width: 282px;
+  height: 251px;
+}
+
+.images4 img {
+  width: 892px;
+  height: 545px;
+}
+.datos {
+  position: absolute;
+  margin-left: 900px;
+  margin-top: -600px;
+  width: 350px;
+}
+.datos span {
+  font-weight: 600;
+}
+.return {
+  text-decoration: none;
+  color: rgb(21, 85, 85);
+  font-weight: 600;
+  margin: 680px;
+  border: solid 1px;
+  border-radius: 10px;
+  padding: 5px;
+}
+footer {
+  width: 1440px;
+  height: 77px;
+  background: #9ecefa;
+  display: flex;
+  justify-content: space-between;
+}
+footer p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+footer p span {
+  font-weight: 600;
+  color: #87119a;
+}
